@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Feedback Management System</title>
+  
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+   body{
+    background-color: #fdfbf9;
+   }
+footer {
+  background-color: #343a40; 
+  color: #dcdcdc; 
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer .info_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+footer .info_container h6 {
+  color: #f4a261; 
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #f4a261; 
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+footer .info_container p,
+footer .info_container ul li {
+  font-size: 14px;
+  color: #dcdcdc; 
+  line-height: 1.8; 
+}
+
+footer .info_container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .info_container ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+footer .info_container ul li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle; 
+}
+
+
+footer .info_container ul li a {
+  color: #dcdcdc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .info_container ul li a:hover {
+  color: #f4a261; 
+}
+
+
+footer .horizontal-divider {
+  border-top: 1px solid #f4a261; 
+  margin: 20px 0;
+  opacity: 0.5; 
+}
+
+
+footer .social_container {
+  margin-top: 20px;
+}
+
+footer .social_container a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+footer .social_container a img {
+  width: 25px;
+  height: 25px;
+}
+
+footer .social_container a:hover {
+  transform: scale(1.1); 
+}
+
+footer .footer_section p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #dcdcdc;
+}
+
+@media (max-width: 768px) {
+  footer .info_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .info_container > div {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="hero_area">
+    <header class="header_section">
+      <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+          <ul class="navbar-nav">
+          <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+           </li>
+            <li class="nav-item">
+             <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="features.html">Features</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Login
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="loginDropdown">
+                    <a class="dropdown-item" href="student_login.php">Student Login</a>
+                    <a class="dropdown-item" href="faculty_login.php">Faculty Login</a>
+                    <a class="dropdown-item" href="admin_login.php">Admin Login</a>
+                  </div>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <section class="slider_section" style="color:black;">
+    <div class="slider_container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+        <div class="container-fluid">
+       <div class="row">
+        <div class="col-md-6 px-0">
+      <div class="img-box">
+           <img src="images/feed.jpg" alt="" />
+       </div>
+         </div>
+       <div class="col-md-6">
+       <div class="detail-box">
+                    <h1 style="color:rgb(43, 40, 44); font-size:60px;">Feedback Management<br>System</h1>
+                    <p  style="color:rgb(43, 40, 44);"><i>"An easier way to give Feedbacks for Faculty...!!"</i></p>
+                    <a href="student_login.php">Give Feedback</a>
+       </div>
+         </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><br>
+  
+  <footer class="footer_section bg-dark text-white text-center py-3">
+    <div class="info_container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <h6>Feedback</h6><br>
+           A way to improve teaching  <br>and academic progress in college....!!
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h6>SUPPORT</h6><br>
+           Need help? Reach out to our support team anytime for assistance.
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h6>QUICK LINKS</h6>
+            <ul style="margin-left:80px;">
+              <li><a href="about.html">About</a></li>
+              <li><a href="features.html">Features</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h6>CONTACT US</h6>
+            <ul style="margin-left:50px;">
+              <li><img src="images/location.png" alt="Location Icon"> Vadodara, Gujarat</li>
+              <li><img src="images/call.png" alt="Call Icon"> +91 987654321</li>
+              <li><img src="images/mail.png" alt="Mail Icon"> systemfeedback123@gmail.com</li>
+      </ul>
+      </div>          
+      </div>
+      </div>
+    </div>
+    <div class="container">
+      <p>&copy; <span id="displayYear"></span> Feedback Management System. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
